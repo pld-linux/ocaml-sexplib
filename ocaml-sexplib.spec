@@ -46,7 +46,7 @@ używających biblioteki sexplib.
 
 %package devel
 Summary:	Library for serializing OCaml values to and from S-expressions - development part
-Summary(pl.UTF-8):	Biblioteka do serializacji wartości OCamlowych do/z S-wyrażeń - cześć programistyczna
+Summary(pl.UTF-8):	Biblioteka do serializacji wartości OCamlowych do/z S-wyrażeń - część programistyczna
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 %requires_eq	ocaml

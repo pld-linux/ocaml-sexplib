@@ -77,7 +77,7 @@ dune install --destdir=$RPM_BUILD_ROOT
 %{__rm} $RPM_BUILD_ROOT%{_libdir}/ocaml/sexplib/*.ml
 %{__rm} $RPM_BUILD_ROOT%{_libdir}/ocaml/sexplib/*/*.ml
 # packaged as %doc
-%{__rm} -r $RPM_BUILD_ROOT%{_prefix}/doc/sexplib
+%{__rm} -r $RPM_BUILD_ROOT%{_docdir}/sexplib
 
 %clean
 rm -rf $RPM_BUILD_ROOT

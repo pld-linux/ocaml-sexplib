@@ -10,21 +10,19 @@
 Summary:	Library for serializing OCaml values to and from S-expressions
 Summary(pl.UTF-8):	Biblioteka do serializacji wartości OCamlowych do/z S-wyrażeń
 Name:		ocaml-sexplib
-Version:	0.14.0
+Version:	0.16.0
 Release:	1
 License:	MIT
 Group:		Libraries
 #Source0Download: https://github.com/janestreet/sexplib/tags
 Source0:	https://github.com/janestreet/sexplib/archive/v%{version}/sexplib-%{version}.tar.gz
-# Source0-md5:	4ad0c908ed9429d91d43381c60a7ff30
+# Source0-md5:	dcd63a3de70941964b4504b0ece52d77
 URL:		https://github.com/janestreet/sexplib/
 BuildRequires:	ocaml >= 1:4.04.2
 BuildRequires:	ocaml-dune >= 2.0.0
 BuildRequires:	ocaml-num-devel
 BuildRequires:	ocaml-parsexp-devel >= 0.14
-BuildRequires:	ocaml-parsexp-devel < 0.15
 BuildRequires:	ocaml-sexplib0-devel >= 0.14
-BuildRequires:	ocaml-sexplib0-devel < 0.15
 %requires_eq	ocaml-runtime
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
